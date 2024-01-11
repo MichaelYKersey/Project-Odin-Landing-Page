@@ -9,3 +9,27 @@ body {
     margin: 0;
     font-family: "roboto", sans-serif;
 }
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 8px 200px;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-logo {
+    margin-right: auto;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.header-link {
+    color: #979aa0;
+    text-decoration: none;
+    padding: 0;
+}
