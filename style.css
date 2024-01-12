@@ -130,3 +130,45 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.sign-up-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.sign-up-card {
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 48px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-text {
+
+}
+
+.sign-up-text-title {
+    color: white;
+    margin: 0;
+}
+
+.sign-up-text-description {
+    color: lightgray;
+    margin: 0;
+}
+
+.sign-up-area-button {
+    color: white;
+    background-color: #3882f6;
+    height: 48px;
+    width: 120px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    font-weight: bolder;
+    align-self: center;
+}
