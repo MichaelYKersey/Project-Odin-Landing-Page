@@ -106,3 +106,27 @@ body {
     width: 180;
     background-color: lightgray;
 }
+
+.quote-area {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote {
+    font-style: italic;
+    color: darkslategray;
+    font-size: 32px;
+}
+.quote-attribution {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
