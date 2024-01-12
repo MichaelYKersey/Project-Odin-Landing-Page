@@ -172,3 +172,13 @@ body {
     font-weight: bolder;
     align-self: center;
 }
+
+.footer-bar {
+    margin-top: auto;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
